@@ -5,13 +5,13 @@
 G91                         ; relative mode
 
 (--- 1 PROBE Y ---)
-; Pull away again
+; Pull away
 G1 Y[+#<_xy_clearance>] F[#<_rapid_fr>]
 
 ; Z down
 G1 Z[-#<_probing_depth>] F[#<_rapid_fr>]
 
-; Probe Y+
+; Probe Y-
 G38.2 Y[-#<_probing_dist>] F[#<_search_fr>]
 G1 Y[+#<_latch_dist>] F[#<_rapid_fr>]
 G38.2 Y[-#<_latch_dist>] F[#<_latch_fr>]

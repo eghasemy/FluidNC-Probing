@@ -1,4 +1,4 @@
-(--- M100: Set common probe variables ---)
+(--- Set common probe variables ---)
 #<_rapid_fr> = 3000    ; Rapid feed rate (mm/min)
 #<_search_fr> = 200     ; Search feed rate
 #<_latch_fr> = 50      ; Latch feed rate
@@ -8,4 +8,4 @@
 #<_xy_clearance> = 10       ; XY clearance
 #<_probing_depth> = 5       ; Z probing depth
 
-;M2
+#<_hole_diameter> = 4     ; To probe inside a hole

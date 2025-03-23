@@ -1,4 +1,4 @@
-;M113: Probe Bottom-Right Corner
+; Probe Bottom-Right Corner
 
 #<_probe_clearance> = [#<_xy_clearance>] - [#<_probe_diameter> / 2]
 

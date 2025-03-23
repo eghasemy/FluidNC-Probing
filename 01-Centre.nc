@@ -1,4 +1,4 @@
-;M113: Probe Centre
+; Probe Centre
 
 #<_probe_retract> = [#<_probing_depth> + #<_probe_diameter> / 2]
 #<_probe_clearance> = [#<_probe_retract> - #<_probe_diameter> / 2]

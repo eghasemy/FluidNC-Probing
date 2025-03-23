@@ -1,11 +1,11 @@
-;M113: Probe Bottom-Edge
+; Probe Bottom-Edge
 
 #<_probe_clearance> = [#<_xy_clearance>] - [#<_probe_diameter> / 2]
 
 G91                         ; relative mode
 
 (--- 1 PROBE Y ---)
-; Pull away again
+; Pull away
 G1 Y[-#<_xy_clearance>] F[#<_rapid_fr>]
 
 ; Z down

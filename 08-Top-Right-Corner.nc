@@ -1,11 +1,11 @@
-;M113: Probe Bottom-Right Corner
+; Probe Bottom-Right Corner
 
 #<_probe_clearance> = [#<_xy_clearance>] - [#<_probe_diameter> / 2]
 
 G91                         ; relative mode
 
 (--- 1 PROBE X ---)
-; Pull away from corner in X+ Y+ by #<_xy_clearance>
+; Pull away from corner in X+ Y- by #<_xy_clearance>
 G1 X[+#<_xy_clearance>] Y[-#<_xy_clearance>] F[#<_rapid_fr>]
 
 ; Move Z down by #<_probing_depth>
