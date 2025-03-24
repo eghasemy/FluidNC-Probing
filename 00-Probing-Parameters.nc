@@ -8,4 +8,5 @@
 #<_xy_clearance> = 10       ; XY clearance
 #<_probing_depth> = 5       ; Z probing depth
 
-#<_hole_diameter> = 4     ; To probe inside a hole
+#<_i_diameter> = 4     ; Inside diameter measurement for centre finding
+#<_o_diameter> = 4     ; Outside diameter measurement for centre finding 

@@ -49,9 +49,6 @@ G1 Y[+#<_centre>] F[#<_rapid_fr>]
 
 (--- 3 FINISH PROBING SEQUENCE ---)
 
-; Z up
-G1 Z[+#<_probing_depth>] F[#<_rapid_fr>]
-
 ; Finally zero out
 G10 L20 P0 X0 Y0
 G90

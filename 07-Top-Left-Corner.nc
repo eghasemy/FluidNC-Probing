@@ -48,4 +48,3 @@ G1 X[-#<_probe_clearance>] Y[-#<_probe_clearance>] F[#<_rapid_fr>]
 ; Finally zero out
 G10 L20 P0 X0 Y0
 G90
-M2

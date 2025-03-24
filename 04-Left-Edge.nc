@@ -1,4 +1,4 @@
-;M113: Probe Left-Edge
+; Probe Left-Edge
 
 #<_probe_clearance> = [#<_xy_clearance>] - [#<_probe_diameter> / 2]
 
@@ -27,4 +27,3 @@ G1 X[+#<_probe_clearance>] F[#<_rapid_fr>]
 ; Finally zero out
 G10 L20 P0 X0
 G90
-M2

@@ -16,4 +16,3 @@ G1 Z[+#<_probing_depth>] F[#<_rapid_fr>]
 ; zero out
 G10 L20 P0 Z[#<_probe_retract>]
 G90
-M2

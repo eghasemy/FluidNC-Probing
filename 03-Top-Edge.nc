@@ -1,4 +1,4 @@
-;M113: Probe Top-Edge
+; Probe Top-Edge
 
 #<_probe_clearance> = [#<_xy_clearance>] - [#<_probe_diameter> / 2]
 
@@ -27,4 +27,3 @@ G1 Y[-#<_probe_clearance>] F[#<_rapid_fr>]
 ; Finally zero out
 G10 L20 P0 Y0
 G90
-M2
